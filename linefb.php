@@ -17,7 +17,7 @@
             sendlinemesg();
             header('Content-Type: text/html; charset=utf8');
             $res = notify_message($message);
-            header("location: index.php");
+            header("location: facebook.php");
         } else {
             header("location: facebook.php");
         }
