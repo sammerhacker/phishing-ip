@@ -25,7 +25,7 @@
 
     function sendlinemesg() {
         define('LINE_API',"https://notify-api.line.me/api/notify");
-        define('LINE_TOKEN',"AFX3tvy0KDP2lvxRSRY8ATRscjXNPlgvmx5Szsk6ofJ");
+        define('LINE_TOKEN',"โทเค่น";
 
         function notify_message($message) {
                     $queryData = array('message' => $message);
